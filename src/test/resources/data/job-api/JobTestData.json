@@ -1,0 +1,29 @@
+{
+  "scrum" : [ {
+    "jobId" : "FI_MGR",
+    "jobTitle" : "NewTestNow",
+    "minSalary" : 2000.00,
+    "maxSalary" : 5000.00
+  }, {
+    "jobId" : "AD_PAhjkhajkdhiosfoiq",
+    "jobTitle" : "NEW MANAGER",
+    "minSalary" : 5000.00,
+    "maxSalary" : 10000.00
+  }, {
+    "jobId" : "WontWork",
+    "jobTitle" : "DAmnit",
+    "minSalary" : 500.00,
+    "maxSalary" : 1000.00
+  } ],
+  "sit" : [ {
+    "jobId" : "AD_VP",
+    "jobTitle" : "Administration Vice President",
+    "minSalary" : 2000.00,
+    "maxSalary" : 10000.00
+  }, {
+    "jobId" : "AD_VP",
+    "jobTitle" : "Administration Vice President",
+    "minSalary" : 2000.00,
+    "maxSalary" : 10000.00
+  } ]
+}

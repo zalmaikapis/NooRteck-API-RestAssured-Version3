@@ -1,0 +1,34 @@
+{
+  "scrum" : [ {
+    "departmentId" : 50,
+    "departmentName" : "FarNick",
+    "managerId" : 204,
+    "locationId" : 1700
+  }, {
+    "departmentId" : 30,
+    "departmentName" : "Public Relations",
+    "managerId" : 200,
+    "locationId" : 2700
+  }, {
+    "departmentId" : 1000,
+    "departmentName" : "QA Dep is fun and let's see",
+    "managerId" : 200,
+    "locationId" : 2400
+  }, {
+    "departmentId" : 1000,
+    "departmentName" : "QA Dep",
+    "managerId" : 205,
+    "locationId" : 2400
+  } ],
+  "sit" : [ {
+    "departmentId" : 1000,
+    "departmentName" : "department name",
+    "managerId" : 1000,
+    "locationId" : 1000
+  }, {
+    "departmentId" : 1000,
+    "departmentName" : "department name",
+    "managerId" : 1000,
+    "locationId" : 1000
+  } ]
+}
