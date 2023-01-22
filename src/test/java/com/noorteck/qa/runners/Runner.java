@@ -10,8 +10,11 @@ import io.cucumber.junit.CucumberOptions;
 					features = "src/test/resources/hr/",
 					glue = "com.noorteck.qa.steps",					
 							plugin = {"summary","pretty", "html:target/cucumber-reports.html",
-									"json:target/cucumber-reports",					
+									"json:target/destination/cucumber-reports.json",					
 									"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+									/*plugin = {"summary","pretty", "html:target/cucumber-reports.html",
+											"json:target/cucumber-reports",					
+											"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},*/
 					monochrome = true
 						)
 public class Runner {
