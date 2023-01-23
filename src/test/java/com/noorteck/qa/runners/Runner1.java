@@ -7,8 +7,9 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-					features = "src/test/resources/hr/US302-PatchJobTitle.feature",
-					glue = "com.noorteck.qa.steps",					
+					features = "src/test/resources/hr/",
+					glue = "com.noorteck.qa.steps",		
+					tags="@createJobzz",
 							plugin = {"summary","pretty", "html:target/cucumber-reports.html",
 									"json:target/destination/cucumber-reports.json",					
 									"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
@@ -17,6 +18,6 @@ import io.cucumber.junit.CucumberOptions;
 											"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},*/
 					monochrome = true
 						)
-public class Runner {
+public class Runner1 {
 
 }
