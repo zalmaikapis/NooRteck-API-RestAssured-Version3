@@ -16,4 +16,4 @@ Feature:  Update Existing Job Salary API
     @PatchJobSal
     Examples: 
       | region  | apiName              | statusCode | requestBody           | message              |
-      | "scrum" | "Job:PatchJobSalary" | "200"      | 'JobTestData:scrum:0' | Successfully updated |
+      | "scrum" | "Job:PatchJobSalary" | "200"      | 'JobTestData:scrum:1' | Successfully updated |
