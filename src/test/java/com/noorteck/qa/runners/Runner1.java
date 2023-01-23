@@ -13,6 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 							plugin = {"summary","pretty", "html:target/cucumber-reports.html",
 									"json:target/destination/cucumber-reports.json",					
 									"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+							
 									/*plugin = {"summary","pretty", "html:target/cucumber-reports.html",
 											"json:target/cucumber-reports",					
 											"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},*/
