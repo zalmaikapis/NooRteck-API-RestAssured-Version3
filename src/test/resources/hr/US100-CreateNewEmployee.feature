@@ -13,7 +13,7 @@ Feature: Create New Employee API
       | <message> |
     And User validates cross validates against application database
 
-    @CreateEmpNew
+    @Create
     Examples: 
       | region  | apiName               | statusCode | requestBody           | message          |
       | "scrum" | "Employee:PostNewEmp" | "201"      | 'EmpTestData:scrum:0' | Created employee |
